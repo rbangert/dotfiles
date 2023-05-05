@@ -1,0 +1,105 @@
+###########################
+#    Applicatin binds     #
+###########################
+# Workstation Tools
+super + return 
+    alacritty
+super + shift+ l
+    thunar
+
+
+#############################
+#    Desktop Environment    #
+#############################
+# Menus
+super + space
+    bash ~/.config/rofi/launcher.sh
+super + l 
+    bash ~/.config/rofi/powermenu.sh
+super + d
+    bash ~/.config/eww/scripts/launch_dashboard
+# Screenshots
+super + p
+    grim -g "$(slurp)" "$(xdg-user-dir PICTURES)/$(date).png"
+super + shift + p
+    grim "$(xdg-user-dir PICTURES)/$(date).png"
+# Volume 
+super + F11
+    bash ~/.config/hypr/scripts/volume --down
+super + F12
+    bash ~/.config/hypr/scripts/volume --up
+# Brightness
+super + F5
+    brightnessctl set 5%-
+super + F6
+    brightnessctl set 5%+
+
+
+###########################
+#     hyprland binds      #
+###########################
+super + 1
+    hyprctl dispatch workspace 1
+super + 2
+    hyprctl dispatch workspace 2
+super + 3
+    hyprctl dispatch workspace 3
+super + 4
+    hyprctl dispatch workspace 4
+super + 5
+    hyprctl dispatch workspace 5
+super + q
+    hyprctl dispatch workspace 6
+super + w
+    hyprctl dispatch workspace 7
+super + e
+    hyprctl dispatch workspace 8
+super + r
+    hyprctl dispatch workspace 9
+super + t
+    hyprctl dispatch workspace 0
+
+super + a
+    hyprctl dispatch focusmonitor 0
+super + s
+    hyprctl dispatch focusmonitor 1
+
+super + shift + q
+    hyprctl dispatch movewindow mon:-1
+super + shift + w
+    hyprctl dispatch movewindow mon:1
+super + shift + a
+    hyprctl dispatch movetoworkspace -1
+super + shift + s
+    hyprctl dispatch movetoworkspace +1
+    
+# Manipulate windows
+alt + h
+    hyprctl dispatch resizeactive -40 0
+alt + j
+    hyprctl dispatch resizeactive 0 40
+alt + k
+    hyprctl dispatch resizeactive 0 -40
+alt + l
+    hyprctl dispatch resizeactive 40 0    
+super + shift + c
+    hyprctl dispatch killactive
+super + f
+    hyprctl dispatch togglefloating
+super + shift + f
+    hyprctl dispatch fullscreen 0
+
+###########################
+#      swhkd binds        #
+###########################
+# Reload config file
+super + shift + i
+    sudo pkill -HUP swhkd
+
+# Pause Hotkey checking
+super + shift + o
+    sudo pkill -USR1 swhkd
+
+# Resume key checking
+super + shift + p
+    sudo pkill -USR2 swhkd
