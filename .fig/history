@@ -1,0 +1,2623 @@
+
+- command: fzf
+  exit_code: 130
+  shell: zsh
+  session_id: cf3ed642-85e6-4ab4-8370-5d829c166f24
+  cwd: /home/rb
+  time: 1682371019
+- command: which fzf
+  exit_code: 0
+  shell: zsh
+  session_id: cf3ed642-85e6-4ab4-8370-5d829c166f24
+  cwd: /home/rb
+  time: 1682371039
+- command: cd Repositories/Samples
+  exit_code: 0
+  shell: zsh
+  session_id: cf3ed642-85e6-4ab4-8370-5d829c166f24
+  cwd: /home/rb
+  time: 1682372103
+- command: git clone git@github.com:owenrumney/eww-bar.git
+  exit_code: 0
+  shell: zsh
+  session_id: cf3ed642-85e6-4ab4-8370-5d829c166f24
+  cwd: /home/rb/Repositories/Samples
+  time: 1682372124
+- command: sudo pkill -HUP swhkd
+  exit_code: 1
+  shell: zsh
+  session_id: cf3ed642-85e6-4ab4-8370-5d829c166f24
+  cwd: /home/rb/Repositories/Samples
+  time: 1682372358
+- command: sudo pkill -HUP swhkd
+  exit_code: 1
+  shell: zsh
+  session_id: 6e506336-5e4e-43c9-a9b9-84b9d3a69a97
+  cwd: /home/rb
+  time: 1682372394
+- command: sudo pkill -HUP swhkd
+  exit_code: 1
+  shell: zsh
+  session_id: 6e506336-5e4e-43c9-a9b9-84b9d3a69a97
+  cwd: /home/rb
+  time: 1682372412
+- command: cd .config/scripts
+  exit_code: 0
+  shell: zsh
+  session_id: 6e506336-5e4e-43c9-a9b9-84b9d3a69a97
+  cwd: /home/rb
+  time: 1682372427
+- command: chezmoi
+  exit_code: 0
+  shell: zsh
+  session_id: 699ebc94-bfda-41b2-ac60-3f7c08f05da4
+  cwd: /home/rb
+  time: 1682373502
+- command: chezmoi add ~/.config/swhkd/swhkdrc
+  exit_code: 0
+  shell: zsh
+  session_id: 699ebc94-bfda-41b2-ac60-3f7c08f05da4
+  cwd: /home/rb
+  time: 1682373603
+- command: chezmoi cd
+  exit_code: 0
+  shell: zsh
+  session_id: 699ebc94-bfda-41b2-ac60-3f7c08f05da4
+  cwd: /home/rb
+  time: 1682373624
+- command: git remote add origin git@github.com:rbangert/dotfiles.git
+  exit_code: 3
+  shell: zsh
+  session_id: 699ebc94-bfda-41b2-ac60-3f7c08f05da4
+  cwd: /home/rb/.local/share/chezmoi
+  time: 1682373639
+- command: git add .
+  exit_code: 0
+  shell: zsh
+  session_id: 699ebc94-bfda-41b2-ac60-3f7c08f05da4
+  cwd: /home/rb/.local/share/chezmoi
+  time: 1682373651
+- command: exit
+  exit_code: 0
+  shell: zsh
+  session_id: 699ebc94-bfda-41b2-ac60-3f7c08f05da4
+  cwd: /home/rb/.local/share/chezmoi
+  time: 1682373657
+- command: ls .config
+  exit_code: 0
+  shell: zsh
+  session_id: 699ebc94-bfda-41b2-ac60-3f7c08f05da4
+  cwd: /home/rb
+  time: 1682373667
+- command: chezmoi add ~/.config/alacritty
+  exit_code: 0
+  shell: zsh
+  session_id: 699ebc94-bfda-41b2-ac60-3f7c08f05da4
+  cwd: /home/rb
+  time: 1682373687
+- command: chezmoi add ~/.config/hypr
+  exit_code: 0
+  shell: zsh
+  session_id: 699ebc94-bfda-41b2-ac60-3f7c08f05da4
+  cwd: /home/rb
+  time: 1682373708
+- command: chezmoi add ~/.config/tmux
+  exit_code: 0
+  shell: zsh
+  session_id: 699ebc94-bfda-41b2-ac60-3f7c08f05da4
+  cwd: /home/rb
+  time: 1682373716
+- command: chezmoi add ~/.config/wallpapers
+  exit_code: 0
+  shell: zsh
+  session_id: 699ebc94-bfda-41b2-ac60-3f7c08f05da4
+  cwd: /home/rb
+  time: 1682373720
+- command: chezmoi add ~/.config/zsh
+  exit_code: 0
+  shell: zsh
+  session_id: 699ebc94-bfda-41b2-ac60-3f7c08f05da4
+  cwd: /home/rb
+  time: 1682373728
+- command: chezmoi add ~/.config/swaylock
+  exit_code: 0
+  shell: zsh
+  session_id: 699ebc94-bfda-41b2-ac60-3f7c08f05da4
+  cwd: /home/rb
+  time: 1682374448
+- command: chezmoi add ~/.config/starship.toml
+  exit_code: 0
+  shell: zsh
+  session_id: 88c03e60-2e1b-467a-9c9c-a2c19cc44579
+  cwd: /home/rb
+  time: 1682374502
+- command: chezmoi add ~/.config/rofi
+  exit_code: 0
+  shell: zsh
+  session_id: 88c03e60-2e1b-467a-9c9c-a2c19cc44579
+  cwd: /home/rb
+  time: 1682375216
+- command: chezmoi add ~/.config/dunst
+  exit_code: 0
+  shell: zsh
+  session_id: 88c03e60-2e1b-467a-9c9c-a2c19cc44579
+  cwd: /home/rb
+  time: 1682375372
+- command: doom
+  exit_code: 127
+  shell: zsh
+  session_id: 0c9c68a8-e857-41b5-b5ef-add9861669bf
+  cwd: /home/rb
+  time: 1682375619
+- command: emacs
+  exit_code: 0
+  shell: zsh
+  session_id: 0c9c68a8-e857-41b5-b5ef-add9861669bf
+  cwd: /home/rb
+  time: 1682375621
+- command: cd Repositories
+  exit_code: 0
+  shell: zsh
+  session_id: 49994a8d-4ed7-49dd-9beb-4c97a570cc60
+  cwd: /home/rb
+  time: 1682375847
+- command: git clone git@github.com:rbangert/obsidian-weather.git
+  exit_code: 0
+  shell: zsh
+  session_id: 49994a8d-4ed7-49dd-9beb-4c97a570cc60
+  cwd: /home/rb/Repositories
+  time: 1682375861
+- command: yay tuime
+  exit_code: 0
+  shell: zsh
+  session_id: 9cadece3-9697-466d-8c9e-9301c39e82e9
+  cwd: /home/rb/Repositories/obsidian-weather
+  time: 1682461596
+- command: cargo install --git=https://github.com/nate-sys/tuime
+  exit_code: 1
+  shell: zsh
+  session_id: 9cadece3-9697-466d-8c9e-9301c39e82e9
+  cwd: /home/rb/Repositories/obsidian-weather
+  time: 1682461608
+- command: rustup default stable
+  exit_code: 0
+  shell: zsh
+  session_id: 9cadece3-9697-466d-8c9e-9301c39e82e9
+  cwd: /home/rb/Repositories/obsidian-weather
+  time: 1682461618
+- command: cargo install --git=https://github.com/nate-sys/tuime
+  exit_code: 0
+  shell: zsh
+  session_id: 9cadece3-9697-466d-8c9e-9301c39e82e9
+  cwd: /home/rb/Repositories/obsidian-weather
+  time: 1682461625
+- command: tuime
+  exit_code: 127
+  shell: zsh
+  session_id: 9cadece3-9697-466d-8c9e-9301c39e82e9
+  cwd: /home/rb/Repositories/obsidian-weather
+  time: 1682467798
+- command: cargo tuime
+  exit_code: 101
+  shell: zsh
+  session_id: 9cadece3-9697-466d-8c9e-9301c39e82e9
+  cwd: /home/rb/Repositories/obsidian-weather
+  time: 1682467805
+- command: ls ~/.local/bin
+  exit_code: 0
+  shell: zsh
+  session_id: 9cadece3-9697-466d-8c9e-9301c39e82e9
+  cwd: /home/rb/Repositories/obsidian-weather
+  time: 1682467847
+- command: mv /home/rb/.cargo/bin/tuime ~/.local/bin
+  exit_code: 0
+  shell: zsh
+  session_id: 9cadece3-9697-466d-8c9e-9301c39e82e9
+  cwd: /home/rb/Repositories/obsidian-weather
+  time: 1682467858
+- command: yay tor
+  exit_code: 0
+  shell: zsh
+  session_id: e97ffd2a-3a5c-4395-a65f-992cec3bcd46
+  cwd: /home/rb
+  time: 1682468325
+- command: ip a
+  exit_code: 0
+  shell: zsh
+  session_id: 897c90d9-3393-4d8c-8b94-f0a9f7875bd7
+  cwd: /home/rb
+  time: 1682476819
+- command: ip
+  exit_code: 255
+  shell: zsh
+  session_id: 897c90d9-3393-4d8c-8b94-f0a9f7875bd7
+  cwd: /home/rb
+  time: 1682476839
+- command: nmcli
+  exit_code: 0
+  shell: zsh
+  session_id: 897c90d9-3393-4d8c-8b94-f0a9f7875bd7
+  cwd: /home/rb
+  time: 1682476849
+- command: ping google
+  exit_code: 130
+  shell: zsh
+  session_id: 897c90d9-3393-4d8c-8b94-f0a9f7875bd7
+  cwd: /home/rb
+  time: 1682476870
+- command: ping google.com
+  exit_code: 0
+  shell: zsh
+  session_id: 897c90d9-3393-4d8c-8b94-f0a9f7875bd7
+  cwd: /home/rb
+  time: 1682476874
+- command: sudo pacman -S systeroid
+  exit_code: 0
+  shell: zsh
+  session_id: 6fe6f2a9-22af-46ec-a425-1c50962451b0
+  cwd: /home/rb
+  time: 1682515717
+- command: sudo pacman -Syu
+  exit_code: 0
+  shell: zsh
+  session_id: 302d487f-1249-4dbc-81a4-85fc45604630
+  cwd: /home/rb
+  time: 1682516570
+- command: systeroid
+  exit_code: 0
+  shell: zsh
+  session_id: 2d5bb379-d989-445f-b561-e2535b528604
+  cwd: /home/rb
+  time: 1682528588
+- command: systeroid -tui
+  exit_code: 0
+  shell: zsh
+  session_id: 2d5bb379-d989-445f-b561-e2535b528604
+  cwd: /home/rb
+  time: 1682528600
+- command: systeroid --tui
+  exit_code: 0
+  shell: zsh
+  session_id: 2d5bb379-d989-445f-b561-e2535b528604
+  cwd: /home/rb
+  time: 1682528606
+- command: systeroid -A
+  exit_code: 0
+  shell: zsh
+  session_id: 2d5bb379-d989-445f-b561-e2535b528604
+  cwd: /home/rb
+  time: 1682528622
+- command: systeroid kernel.hostname
+  exit_code: 0
+  shell: zsh
+  session_id: 2d5bb379-d989-445f-b561-e2535b528604
+  cwd: /home/rb
+  time: 1682528640
+- command: systeroid-tui
+  exit_code: 1
+  shell: zsh
+  session_id: 2d5bb379-d989-445f-b561-e2535b528604
+  cwd: /home/rb
+  time: 1682528666
+- command: spc
+  exit_code: 127
+  shell: zsh
+  session_id: 2d5bb379-d989-445f-b561-e2535b528604
+  cwd: /home/rb
+  time: 1682528889
+- command: sudo pacman -S spc
+  exit_code: 1
+  shell: zsh
+  session_id: 2d5bb379-d989-445f-b561-e2535b528604
+  cwd: /home/rb
+  time: 1682528907
+- command: yay spc
+  exit_code: 130
+  shell: zsh
+  session_id: 2d5bb379-d989-445f-b561-e2535b528604
+  cwd: /home/rb
+  time: 1682528912
+- command: yay rsync
+  exit_code: 1
+  shell: zsh
+  session_id: 2d5bb379-d989-445f-b561-e2535b528604
+  cwd: /home/rb
+  time: 1682528933
+- command: rsync -a . rb@gitlab.local:/etc/gitlab/gitlab.rb
+  exit_code: 10
+  shell: zsh
+  session_id: 2d5bb379-d989-445f-b561-e2535b528604
+  cwd: /home/rb
+  time: 1682529110
+- command: rsync -a rb@gitlab.local:/etc/gitlab/gitlab.rb ./
+  exit_code: 0
+  shell: zsh
+  session_id: 2d5bb379-d989-445f-b561-e2535b528604
+  cwd: /home/rb
+  time: 1682529142
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: 2d5bb379-d989-445f-b561-e2535b528604
+  cwd: /home/rb
+  time: 1682529144
+- command: ping google.com
+  exit_code: 130
+  shell: zsh
+  session_id: 98641d74-449f-471c-90b0-7bdf7be10efb
+  cwd: /home/rb
+  time: 1682645900
+- command: nm-applet
+  exit_code: 130
+  shell: zsh
+  session_id: 98641d74-449f-471c-90b0-7bdf7be10efb
+  cwd: /home/rb
+  time: 1682645987
+- command: nm-connection-editor
+  exit_code: 0
+  shell: zsh
+  session_id: 98641d74-449f-471c-90b0-7bdf7be10efb
+  cwd: /home/rb
+  time: 1682645999
+- command: nmcli
+  exit_code: 0
+  shell: zsh
+  session_id: 98641d74-449f-471c-90b0-7bdf7be10efb
+  cwd: /home/rb
+  time: 1682646014
+- command: nm-online
+  exit_code: 130
+  shell: zsh
+  session_id: 98641d74-449f-471c-90b0-7bdf7be10efb
+  cwd: /home/rb
+  time: 1682646021
+- command: nmcli
+  exit_code: 0
+  shell: zsh
+  session_id: 98641d74-449f-471c-90b0-7bdf7be10efb
+  cwd: /home/rb
+  time: 1682646044
+- command: ip a
+  exit_code: 0
+  shell: zsh
+  session_id: 98641d74-449f-471c-90b0-7bdf7be10efb
+  cwd: /home/rb
+  time: 1682646055
+- command: pactl set-sink-volume @DEFAULT_SINK@ 0%
+  exit_code: 0
+  shell: zsh
+  session_id: bf882363-0161-476d-bbe0-2f9cabe7fa41
+  cwd: /home/rb
+  time: 1682745971
+- command: nvim
+  exit_code: 0
+  shell: zsh
+  session_id: 678093d1-a66c-4964-8249-18c5676be860
+  cwd: /home/rb
+  time: 1682813826
+- command: nvim
+  exit_code: 0
+  shell: zsh
+  session_id: 678093d1-a66c-4964-8249-18c5676be860
+  cwd: /home/rb
+  time: 1682813837
+- command: cat .ssh/id_ed25519.pub
+  exit_code: 0
+  shell: zsh
+  session_id: 678093d1-a66c-4964-8249-18c5676be860
+  cwd: /home/rb
+  time: 1682837960
+- command: ssh 192.168.1.111
+  exit_code: 130
+  shell: zsh
+  session_id: 678093d1-a66c-4964-8249-18c5676be860
+  cwd: /home/rb
+  time: 1682839560
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: e1f9a301-83d5-4c9b-a478-b8f3a10e582b
+  cwd: /home/rb
+  time: 1682846111
+- command: ls Downloads
+  exit_code: 0
+  shell: zsh
+  session_id: e1f9a301-83d5-4c9b-a478-b8f3a10e582b
+  cwd: /home/rb
+  time: 1682846115
+- command: brew tap hashicorp/tap
+  exit_code: 127
+  shell: zsh
+  session_id: bf882363-0161-476d-bbe0-2f9cabe7fa41
+  cwd: /home/rb
+  time: 1682846689
+- command: ssh 192.168.1.100
+  exit_code: 255
+  shell: zsh
+  session_id: e1f9a301-83d5-4c9b-a478-b8f3a10e582b
+  cwd: /home/rb
+  time: 1682846801
+- command: brew tap hashicorp/tap
+  exit_code: 127
+  shell: zsh
+  session_id: e1f9a301-83d5-4c9b-a478-b8f3a10e582b
+  cwd: /home/rb
+  time: 1682846833
+- command: cat .ssh/id_ed25519.pub
+  exit_code: 0
+  shell: zsh
+  session_id: e1f9a301-83d5-4c9b-a478-b8f3a10e582b
+  cwd: /home/rb
+  time: 1682847076
+- command: /bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"
+  exit_code: 0
+  shell: zsh
+  session_id: bf882363-0161-476d-bbe0-2f9cabe7fa41
+  cwd: /home/rb
+  time: 1682846722
+- command: cat .ssh/id_ed25519.pub
+  exit_code: 0
+  shell: zsh
+  session_id: e1f9a301-83d5-4c9b-a478-b8f3a10e582b
+  cwd: /home/rb
+  time: 1682847137
+- command: brew tap hashicorp/tap
+  exit_code: 127
+  shell: zsh
+  session_id: e1f9a301-83d5-4c9b-a478-b8f3a10e582b
+  cwd: /home/rb
+  time: 1682847139
+- command: test -d ~/.linuxbrew && eval \"$(~/.linuxbrew/bin/brew shellenv)\"
+  exit_code: 1
+  shell: zsh
+  session_id: 0cbb1cfc-9439-4e7e-b6b7-d83f1b242e1a
+  cwd: /home/rb
+  time: 1682847154
+- command: test -d /home/linuxbrew/.linuxbrew && eval \"$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)\"
+  exit_code: 0
+  shell: zsh
+  session_id: 0cbb1cfc-9439-4e7e-b6b7-d83f1b242e1a
+  cwd: /home/rb
+  time: 1682847172
+- command: test -r ~/.bash_profile && echo \"eval \\\"\\$($(brew --prefix)/bin/brew shellenv)\\\"\" >> ~/.bash_profile & echo \"eval \\\"\\$($(brew --prefix)/bin/brew shellenv)\\\"\" >> ~/.profile
+  exit_code: 0
+  shell: zsh
+  session_id: 0cbb1cfc-9439-4e7e-b6b7-d83f1b242e1a
+  cwd: /home/rb
+  time: 1682847193
+- command: brew tap hashicorp/tap
+  exit_code: 0
+  shell: zsh
+  session_id: 0cbb1cfc-9439-4e7e-b6b7-d83f1b242e1a
+  cwd: /home/rb
+  time: 1682847221
+- command: brew install hashicorp/tap/vagrant
+  exit_code: 1
+  shell: zsh
+  session_id: 0cbb1cfc-9439-4e7e-b6b7-d83f1b242e1a
+  cwd: /home/rb
+  time: 1682847245
+- command: brew install hashicorp/tap/vagrant
+  exit_code: 1
+  shell: zsh
+  session_id: 0cbb1cfc-9439-4e7e-b6b7-d83f1b242e1a
+  cwd: /home/rb
+  time: 1682847272
+- command: brew tap hashicorp/tap
+  exit_code: 0
+  shell: zsh
+  session_id: 0cbb1cfc-9439-4e7e-b6b7-d83f1b242e1a
+  cwd: /home/rb
+  time: 1682847317
+- command: brew install hashicorp/tap/vagrant
+  exit_code: 1
+  shell: zsh
+  session_id: 0cbb1cfc-9439-4e7e-b6b7-d83f1b242e1a
+  cwd: /home/rb
+  time: 1682847332
+- command: cd Repositories
+  exit_code: 0
+  shell: zsh
+  session_id: bf882363-0161-476d-bbe0-2f9cabe7fa41
+  cwd: /home/rb
+  time: 1682902485
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: bf882363-0161-476d-bbe0-2f9cabe7fa41
+  cwd: /home/rb/Repositories
+  time: 1682902485
+- command: cd Our-Little-Cloud
+  exit_code: 0
+  shell: zsh
+  session_id: bf882363-0161-476d-bbe0-2f9cabe7fa41
+  cwd: /home/rb/Repositories
+  time: 1682902489
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: bf882363-0161-476d-bbe0-2f9cabe7fa41
+  cwd: /home/rb/Repositories/Our-Little-Cloud
+  time: 1682902490
+- command: cd RR-SV
+  exit_code: 0
+  shell: zsh
+  session_id: bf882363-0161-476d-bbe0-2f9cabe7fa41
+  cwd: /home/rb/Repositories/Our-Little-Cloud
+  time: 1682902493
+- command: cd homepage
+  exit_code: 0
+  shell: zsh
+  session_id: bf882363-0161-476d-bbe0-2f9cabe7fa41
+  cwd: /home/rb/Repositories/Our-Little-Cloud/RR-SV
+  time: 1682902496
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: bf882363-0161-476d-bbe0-2f9cabe7fa41
+  cwd: /home/rb/Repositories/Our-Little-Cloud/RR-SV/homepage
+  time: 1682902497
+- command: 3287273079 / 158429
+  exit_code: 127
+  shell: zsh
+  session_id: bf882363-0161-476d-bbe0-2f9cabe7fa41
+  cwd: /home/rb/Repositories/Our-Little-Cloud/RR-SV/homepage
+  time: 1682904837
+- command: ssh root@172.245.210.126
+  exit_code: 255
+  shell: zsh
+  session_id: 2b86984e-16a9-4540-98b1-2b2895206246
+  cwd: /home/rb
+  time: 1682953655
+- command: nano ~/.ssh/known_hosts
+  exit_code: 0
+  shell: zsh
+  session_id: 2b86984e-16a9-4540-98b1-2b2895206246
+  cwd: /home/rb
+  time: 1682953671
+- command: pactl set-sink-volume @DEFAULT_SINK @100
+  exit_code: 1
+  shell: zsh
+  session_id: 926976fa-2324-4c81-819e-7e885d9c8856
+  cwd: /home/rb/Repositories
+  time: 1682955207
+- command: pactl set-sink-volume @DEFAULT_SINK@ 100
+  exit_code: 0
+  shell: zsh
+  session_id: 926976fa-2324-4c81-819e-7e885d9c8856
+  cwd: /home/rb/Repositories
+  time: 1682955216
+- command: pactl set-sink-volume @DEFAULT_SINK@ 100%
+  exit_code: 0
+  shell: zsh
+  session_id: 926976fa-2324-4c81-819e-7e885d9c8856
+  cwd: /home/rb/Repositories
+  time: 1682955242
+- command: mkdir rr-ansible
+  exit_code: 0
+  shell: zsh
+  session_id: 9be4683a-cd46-4e27-8fee-3eeb5ec5a3fb
+  cwd: /home/rb/Repositories
+  time: 1682972418
+- command: sudo pacman -S gnome-multi-writer
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb
+  time: 1682977317
+- command: sudo gnome-multi-writer
+  exit_code: 1
+  shell: zsh
+  session_id: 332a9a1b-5083-4b83-acc2-ece06beafc31
+  cwd: /home/rb
+  time: 1682978088
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: 332a9a1b-5083-4b83-acc2-ece06beafc31
+  cwd: /home/rb
+  time: 1682978110
+- command: cd Downloads
+  exit_code: 0
+  shell: zsh
+  session_id: 332a9a1b-5083-4b83-acc2-ece06beafc31
+  cwd: /home/rb
+  time: 1682978113
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: 332a9a1b-5083-4b83-acc2-ece06beafc31
+  cwd: /home/rb/Downloads
+  time: 1682978115
+- command: ls /dev/
+  exit_code: 0
+  shell: zsh
+  session_id: f936a484-7d33-42d3-bace-a3b4e733d26c
+  cwd: /home/rb
+  time: 1682978165
+- command: sudo dd bs=4M if=Fedora-Workstation-Live-x86_64-38-1.6.iso of=/dev/sdc status=progress oflag=sync
+  exit_code: 0
+  shell: zsh
+  session_id: 332a9a1b-5083-4b83-acc2-ece06beafc31
+  cwd: /home/rb/Downloads
+  time: 1682978192
+- command: cat .ssh/id_ed25519.pub
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb
+  time: 1682979704
+- command: chezmoi cd
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb
+  time: 1682980479
+- command: git push
+  exit_code: 128
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.local/share/chezmoi
+  time: 1682980488
+- command: git push --set-upstream origin main
+  exit_code: 1
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.local/share/chezmoi
+  time: 1682980541
+- command: git push --set-upstream origin master
+  exit_code: 1
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.local/share/chezmoi
+  time: 1682980567
+- command: git branch -M main
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.local/share/chezmoi
+  time: 1682980586
+- command: git push
+  exit_code: 128
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.local/share/chezmoi
+  time: 1682980589
+- command: git push --set-upstream origin main
+  exit_code: 1
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.local/share/chezmoi
+  time: 1682980604
+- command: git push -u origin main
+  exit_code: 1
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.local/share/chezmoi
+  time: 1682980635
+- command: git init
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.local/share/chezmoi
+  time: 1682980644
+- command: git add *
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.local/share/chezmoi
+  time: 1682980649
+- command: git commit -m \"init\"
+  exit_code: 128
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.local/share/chezmoi
+  time: 1682980723
+- command: git config --global user.email \"rbangert@proton.me\"
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.local/share/chezmoi
+  time: 1682980774
+- command: git config --global user.name \"Russ Bangert
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.local/share/chezmoi
+  time: 1682980786
+- command: git config --global user.name \"Russ Bangert\"
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.local/share/chezmoi
+  time: 1682980788
+- command: git commit -m \"init\"
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.local/share/chezmoi
+  time: 1682980791
+- command: git push -u origin main
+  exit_code: 128
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.local/share/chezmoi
+  time: 1682980805
+- command: exit
+  exit_code: 1
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.local/share/chezmoi
+  time: 1682980816
+- command: ls .config/chezmoi
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb
+  time: 1682980866
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb
+  time: 1682980867
+- command: cd .config
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb
+  time: 1682980872
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.config
+  time: 1682980873
+- command: cd ..
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.config
+  time: 1682980881
+- command: cd Repositories
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb
+  time: 1682980883
+- command: s
+  exit_code: 127
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/Repositories
+  time: 1682980883
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/Repositories
+  time: 1682980884
+- command: cd dotfiles
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/Repositories
+  time: 1682980891
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/Repositories/dotfiles
+  time: 1682980892
+- command: cd ..
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/Repositories/dotfiles
+  time: 1682980897
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/Repositories
+  time: 1682980898
+- command: cd ..
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/Repositories
+  time: 1682980900
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb
+  time: 1682980900
+- command: chezmoi doctor
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb
+  time: 1682980917
+- command: cd .local/share/chezmoi
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb
+  time: 1682980938
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.local/share/chezmoi
+  time: 1682980938
+- command: cd private_dot_config/
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.local/share/chezmoi
+  time: 1682980942
+- command: l
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.local/share/chezmoi/private_dot_config
+  time: 1682980943
+- command: cd ..
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.local/share/chezmoi/private_dot_config
+  time: 1682980950
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.local/share/chezmoi
+  time: 1682980951
+- command: cd ~/.config/chezmoi/
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.local/share/chezmoi
+  time: 1682981243
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.config/chezmoi
+  time: 1682981244
+- command: nano chezmoi.toml
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.config/chezmoi
+  time: 1682981257
+- command: chezmoi cd
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.config/chezmoi
+  time: 1682981377
+- command: git push
+  exit_code: 128
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.local/share/chezmoi
+  time: 1682981380
+- command: git init
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.local/share/chezmoi
+  time: 1682981560
+- command: git commit -m \"init\"
+  exit_code: 1
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.local/share/chezmoi
+  time: 1682981570
+- command: git branch -M main
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.local/share/chezmoi
+  time: 1682981581
+- command: git remote add origin git@github.com:rbangert/dotfiles.git
+  exit_code: 3
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.local/share/chezmoi
+  time: 1682981652
+- command: git push -u origin main
+  exit_code: 130
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.local/share/chezmoi
+  time: 1682981660
+- command: exit
+  exit_code: 1
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.local/share/chezmoi
+  time: 1682981666
+- command: chezmoi init
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.config/chezmoi
+  time: 1682981672
+- command: chezmoi cd
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.config/chezmoi
+  time: 1682981680
+- command: git push -u origin main
+  exit_code: 130
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.local/share/chezmoi
+  time: 1682981691
+- command: gh auth login
+  exit_code: 127
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.local/share/chezmoi
+  time: 1682981696
+- command: sudo pacman -R chezmoi
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.local/share/chezmoi
+  time: 1682981802
+- command: cd ~/.config
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.local/share/chezmoi
+  time: 1682981899
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.config
+  time: 1682981900
+- command: cd zsh
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.config
+  time: 1682981903
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.config/zsh
+  time: 1682981903
+- command: cd ..
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.config/zsh
+  time: 1682981912
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.config
+  time: 1682981912
+- command: shell
+  exit_code: 127
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.config
+  time: 1682981921
+- command: cd ..
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.config
+  time: 1682981929
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb
+  time: 1682981929
+- command: la
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb
+  time: 1682981933
+- command: cat .zshrc
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb
+  time: 1682981942
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb
+  time: 1682981953
+- command: cd .config
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb
+  time: 1682981955
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.config
+  time: 1682981955
+- command: cd zsh
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.config
+  time: 1682981964
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.config/zsh
+  time: 1682981966
+- command: la
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.config/zsh
+  time: 1682981967
+- command: nano .zshrc
+  exit_code: 0
+  shell: zsh
+  session_id: 080cb71b-1f86-464b-9194-e0a1e738e2e9
+  cwd: /home/rb/.config/zsh
+  time: 1682981972
+- command: quit
+  exit_code: 127
+  shell: zsh
+  session_id: ecf92ab7-fbff-45c9-ad7a-f1cc4c541b4a
+  cwd: /home/rb
+  time: 1682982152
+- command: qexit
+  exit_code: 127
+  shell: zsh
+  session_id: ecf92ab7-fbff-45c9-ad7a-f1cc4c541b4a
+  cwd: /home/rb
+  time: 1682982153
+- command: git init --bare $HOME/.dotfiles
+  exit_code: 0
+  shell: zsh
+  session_id: a77eb8e5-8f59-4426-a393-f075b4cf564f
+  cwd: /home/rb
+  time: 1682982197
+- command: git config --global init.defaultBranch main
+  exit_code: 0
+  shell: zsh
+  session_id: a77eb8e5-8f59-4426-a393-f075b4cf564f
+  cwd: /home/rb
+  time: 1682982209
+- command: nano .config/zsh/.zshrc
+  exit_code: 0
+  shell: zsh
+  session_id: a77eb8e5-8f59-4426-a393-f075b4cf564f
+  cwd: /home/rb
+  time: 1682982236
+- command: nano .config/zsh/aliases
+  exit_code: 0
+  shell: zsh
+  session_id: a77eb8e5-8f59-4426-a393-f075b4cf564f
+  cwd: /home/rb
+  time: 1682982242
+- command: config config --local status.showUntrackedFiles no
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb
+  time: 1682982305
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb
+  time: 1682982325
+- command: ll
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb
+  time: 1682982327
+- command: la
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb
+  time: 1682982328
+- command: cd .config
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb
+  time: 1682982333
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.config
+  time: 1682982334
+- command: la
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.config
+  time: 1682982335
+- command: git add zsh/
+  exit_code: 128
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.config
+  time: 1682982351
+- command: config add zsh/
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.config
+  time: 1682982359
+- command: git rm --cached .config/zsh/oh-my-zsh
+  exit_code: 128
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.config
+  time: 1682982396
+- command: git rm --cached .config/zsh/oh-my-zsh
+  exit_code: 128
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.config
+  time: 1682982410
+- command: cd ..
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.config
+  time: 1682982433
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb
+  time: 1682982434
+- command: rm -rf .dotfiles
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb
+  time: 1682982442
+- command: git init --bare $HOME/.dotfiles
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb
+  time: 1682982469
+- command: cd .dotfiles
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb
+  time: 1682982474
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.dotfiles
+  time: 1682982474
+- command: cd info
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.dotfiles
+  time: 1682982481
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.dotfiles/info
+  time: 1682982482
+- command: nano exclude
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.dotfiles/info
+  time: 1682982485
+- command: cd .
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.dotfiles/info
+  time: 1682982519
+- command: .
+  exit_code: 1
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.dotfiles/info
+  time: 1682982521
+- command: ..
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.dotfiles/info
+  time: 1682982522
+- command: ..
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.dotfiles
+  time: 1682982524
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb
+  time: 1682982525
+- command: la
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb
+  time: 1682982525
+- command: .config
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb
+  time: 1682982531
+- command: la
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.config
+  time: 1682982533
+- command: cofig add zsh
+  exit_code: 127
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.config
+  time: 1682982539
+- command: config add zsh/
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.config
+  time: 1682982546
+- command: cd ~
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.config
+  time: 1682982611
+- command: rm -rf .dotfiles
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb
+  time: 1682982617
+- command: git init --bare $HOME/.dotfiles
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb
+  time: 1682982625
+- command: cd .config/zsh
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb
+  time: 1682982633
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.config/zsh
+  time: 1682982634
+- command: cd oh-my-zsh
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.config/zsh
+  time: 1682982642
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.config/zsh/oh-my-zsh
+  time: 1682982643
+- command: la
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.config/zsh/oh-my-zsh
+  time: 1682982644
+- command: cd ..
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.config/zsh/oh-my-zsh
+  time: 1682982673
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.config/zsh
+  time: 1682982673
+- command: rm aliases.save
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.config/zsh
+  time: 1682982678
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.config/zsh
+  time: 1682982678
+- command: config add aliases
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.config/zsh
+  time: 1682982696
+- command: config add functions
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.config/zsh
+  time: 1682982702
+- command: config add .zshrc
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.config/zsh
+  time: 1682982710
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.config/zsh
+  time: 1682982710
+- command: la
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.config/zsh
+  time: 1682982711
+- command: cat .zprofile
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.config/zsh
+  time: 1682982734
+- command: config add .zprofile
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.config/zsh
+  time: 1682982744
+- command: la
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.config/zsh
+  time: 1682982746
+- command: cd ..
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.config/zsh
+  time: 1682982752
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.config
+  time: 1682982753
+- command: config add wallpapers/
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.config
+  time: 1682982763
+- command: config add tmux
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.config
+  time: 1682982774
+- command: ls scripts
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.config
+  time: 1682982781
+- command: config add alacritty/
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.config
+  time: 1682982805
+- command: config add starship.toml
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.config
+  time: 1682982818
+- command: cd ~/Downloads
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/.config
+  time: 1682991274
+- command: ssh root@backup.local
+  exit_code: 0
+  shell: zsh
+  session_id: 0f36063b-c703-43b6-b4d1-973fc6fa3cba
+  cwd: /home/rb/Downloads
+  time: 1682991494
+- command: ~/Downloads
+  exit_code: 0
+  shell: zsh
+  session_id: 7fdb0a4f-2f12-4fa8-acb6-8deba041aaa2
+  cwd: /home/rb/Downloads
+  time: 1682992988
+- command: yay duplicati
+  exit_code: 0
+  shell: zsh
+  session_id: 7fdb0a4f-2f12-4fa8-acb6-8deba041aaa2
+  cwd: /home/rb/Downloads
+  time: 1682994437
+- command: ls -l /opt
+  exit_code: 0
+  shell: zsh
+  session_id: 7fdb0a4f-2f12-4fa8-acb6-8deba041aaa2
+  cwd: /home/rb/Downloads
+  time: 1682995015
+- command: sudo chown root:duplicati /opt/duplicati
+  exit_code: 0
+  shell: zsh
+  session_id: 7fdb0a4f-2f12-4fa8-acb6-8deba041aaa2
+  cwd: /home/rb/Downloads
+  time: 1682995035
+- command: sudo systemctl --user start duplicati
+  exit_code: 1
+  shell: zsh
+  session_id: 7fdb0a4f-2f12-4fa8-acb6-8deba041aaa2
+  cwd: /home/rb/Downloads
+  time: 1682995051
+- command: sudo systemctl --user start duplicati.service app-autorandr-kde@autostart.service                                                     ~/Downloads
+  exit_code: 0
+  shell: zsh
+  session_id: 7fdb0a4f-2f12-4fa8-acb6-8deba041aaa2
+  cwd: /home/rb/Downloads
+  time: 1682995059
+- command: sudo systemctl enable duplicati.service
+  exit_code: 0
+  shell: zsh
+  session_id: 7fdb0a4f-2f12-4fa8-acb6-8deba041aaa2
+  cwd: /home/rb/Downloads
+  time: 1682995072
+- command: sudo systemctl --user start duplicati.service
+  exit_code: 1
+  shell: zsh
+  session_id: 7fdb0a4f-2f12-4fa8-acb6-8deba041aaa2
+  cwd: /home/rb/Downloads
+  time: 1682995077
+- command: sudo systemctl start duplicati.service
+  exit_code: 0
+  shell: zsh
+  session_id: 7fdb0a4f-2f12-4fa8-acb6-8deba041aaa2
+  cwd: /home/rb/Downloads
+  time: 1682995084
+- command: cat /usr/lib/systemd/system/duplicati.service
+  exit_code: 0
+  shell: zsh
+  session_id: 7fdb0a4f-2f12-4fa8-acb6-8deba041aaa2
+  cwd: /home/rb/Downloads
+  time: 1682995100
+- command: systemctl status duplicati.service
+  exit_code: 0
+  shell: zsh
+  session_id: 7fdb0a4f-2f12-4fa8-acb6-8deba041aaa2
+  cwd: /home/rb/Downloads
+  time: 1682995120
+- command: nmap 192.168.1.*
+  exit_code: 1
+  shell: zsh
+  session_id: 7fdb0a4f-2f12-4fa8-acb6-8deba041aaa2
+  cwd: /home/rb/Downloads
+  time: 1682995159
+- command: nmap 192.168.0.0/24
+  exit_code: 127
+  shell: zsh
+  session_id: 7fdb0a4f-2f12-4fa8-acb6-8deba041aaa2
+  cwd: /home/rb/Downloads
+  time: 1682995167
+- command: yay net-tools
+  exit_code: 0
+  shell: zsh
+  session_id: 7fdb0a4f-2f12-4fa8-acb6-8deba041aaa2
+  cwd: /home/rb/Downloads
+  time: 1682995175
+- command: nmap
+  exit_code: 127
+  shell: zsh
+  session_id: 7fdb0a4f-2f12-4fa8-acb6-8deba041aaa2
+  cwd: /home/rb/Downloads
+  time: 1682995331
+- command: yay nmap
+  exit_code: 0
+  shell: zsh
+  session_id: 7fdb0a4f-2f12-4fa8-acb6-8deba041aaa2
+  cwd: /home/rb/Downloads
+  time: 1682995334
+- command: nano /usr/lib/systemd/system/duplicati.service
+  exit_code: 0
+  shell: zsh
+  session_id: 7fdb0a4f-2f12-4fa8-acb6-8deba041aaa2
+  cwd: /home/rb/Downloads
+  time: 1682995547
+- command: sudo nano /usr/lib/systemd/system/duplicati.service
+  exit_code: 0
+  shell: zsh
+  session_id: 7fdb0a4f-2f12-4fa8-acb6-8deba041aaa2
+  cwd: /home/rb/Downloads
+  time: 1682995552
+- command: sudo systemctl restart duplicati.service
+  exit_code: 0
+  shell: zsh
+  session_id: 7fdb0a4f-2f12-4fa8-acb6-8deba041aaa2
+  cwd: /home/rb/Downloads
+  time: 1682995578
+- command: systemctl daemon-reload
+  exit_code: 0
+  shell: zsh
+  session_id: 7fdb0a4f-2f12-4fa8-acb6-8deba041aaa2
+  cwd: /home/rb/Downloads
+  time: 1682995588
+- command: sudo systemctl start duplicati.service
+  exit_code: 0
+  shell: zsh
+  session_id: 7fdb0a4f-2f12-4fa8-acb6-8deba041aaa2
+  cwd: /home/rb/Downloads
+  time: 1682995604
+- command: cat ~/.ssh/id_ed25519
+  exit_code: 0
+  shell: zsh
+  session_id: 7fdb0a4f-2f12-4fa8-acb6-8deba041aaa2
+  cwd: /home/rb/Downloads
+  time: 1682995816
+- command: cat ~/.ssh/id_ed25519.pub
+  exit_code: 0
+  shell: fish
+  session_id: 9e13d117-3645-4544-ac75-4495deef33ce
+  cwd: /home/rb/.config/scripts
+  time: 1682995897
+- command: ssh root@backup.local
+  exit_code: 0
+  shell: zsh
+  session_id: 7fdb0a4f-2f12-4fa8-acb6-8deba041aaa2
+  cwd: /home/rb/Downloads
+  time: 1682995847
+- command: ip a
+  exit_code: 0
+  shell: zsh
+  session_id: bb8194d5-ab4a-4ab3-adc5-0cb2fa245f5d
+  cwd: /home/rb
+  time: 1683045356
+- command: hyprctl
+  exit_code: 1
+  shell: zsh
+  session_id: cb0a8076-f8f4-45ba-b9a9-c74ebec01b30
+  cwd: /home/rb
+  time: 1683046198
+- command: cat /tmp/hypr/$(ls -t /tmp/hypr/ | head -n 1)/hyprland.log
+  exit_code: 0
+  shell: zsh
+  session_id: cb0a8076-f8f4-45ba-b9a9-c74ebec01b30
+  cwd: /home/rb
+  time: 1683046235
+- command: nano hyprlog
+  exit_code: 0
+  shell: zsh
+  session_id: cb0a8076-f8f4-45ba-b9a9-c74ebec01b30
+  cwd: /home/rb
+  time: 1683046367
+- command: yay openbox
+  exit_code: 0
+  shell: zsh
+  session_id: c7af3fe5-92cc-43cd-ad74-d026484687e3
+  cwd: /home/rb
+  time: 1683059618
+- command: yay xfce
+  exit_code: 0
+  shell: zsh
+  session_id: c7af3fe5-92cc-43cd-ad74-d026484687e3
+  cwd: /home/rb
+  time: 1683061553
+- command: ssh backup.local
+  exit_code: 130
+  shell: zsh
+  session_id: bc235448-4776-4c06-a477-46546d9ce403
+  cwd: /home/rb
+  time: 1683062739
+- command: ssh root@backup.local
+  exit_code: 0
+  shell: zsh
+  session_id: bc235448-4776-4c06-a477-46546d9ce403
+  cwd: /home/rb
+  time: 1683062749
+- command: ls .ssh
+  exit_code: 0
+  shell: zsh
+  session_id: bc235448-4776-4c06-a477-46546d9ce403
+  cwd: /home/rb
+  time: 1683062912
+- command: cat .ssh/id_ed25519
+  exit_code: 0
+  shell: zsh
+  session_id: bc235448-4776-4c06-a477-46546d9ce403
+  cwd: /home/rb
+  time: 1683063067
+- command: ssh root@backup.local
+  exit_code: 255
+  shell: zsh
+  session_id: bc235448-4776-4c06-a477-46546d9ce403
+  cwd: /home/rb
+  time: 1683063386
+- command: ssh root@backup.local
+  exit_code: 1
+  shell: zsh
+  session_id: 6b53ab7a-2ed4-4921-90e6-f760efc2f62f
+  cwd: /home/rb
+  time: 1683063612
+- command: ssh root@backup.local
+  exit_code: 0
+  shell: zsh
+  session_id: 7fdb0a4f-2f12-4fa8-acb6-8deba041aaa2
+  cwd: /home/rb/Downloads
+  time: 1683067498
+- command: rclone
+  exit_code: 127
+  shell: zsh
+  session_id: 7fdb0a4f-2f12-4fa8-acb6-8deba041aaa2
+  cwd: /home/rb/Downloads
+  time: 1683067979
+- command: yay rclone
+  exit_code: 0
+  shell: zsh
+  session_id: 7fdb0a4f-2f12-4fa8-acb6-8deba041aaa2
+  cwd: /home/rb/Downloads
+  time: 1683067982
+- command: ssh root@backup.local
+  exit_code: 0
+  shell: zsh
+  session_id: 7fdb0a4f-2f12-4fa8-acb6-8deba041aaa2
+  cwd: /home/rb/Downloads
+  time: 1683068199
+- command: rclone config
+  exit_code: 130
+  shell: zsh
+  session_id: 7fdb0a4f-2f12-4fa8-acb6-8deba041aaa2
+  cwd: /home/rb/Downloads
+  time: 1683068234
+- command: rclone config
+  exit_code: 130
+  shell: zsh
+  session_id: d1158fac-f3c7-42e8-be2b-ec638604f2d1
+  cwd: /home/rb
+  time: 1683068405
+- command: ssh root@backup.loca
+  exit_code: 255
+  shell: zsh
+  session_id: d1158fac-f3c7-42e8-be2b-ec638604f2d1
+  cwd: /home/rb
+  time: 1683068558
+- command: ssh root@backup.local
+  exit_code: 0
+  shell: zsh
+  session_id: d1158fac-f3c7-42e8-be2b-ec638604f2d1
+  cwd: /home/rb
+  time: 1683068561
+- command: sftp
+  exit_code: 1
+  shell: zsh
+  session_id: d1158fac-f3c7-42e8-be2b-ec638604f2d1
+  cwd: /home/rb
+  time: 1683072296
+- command: sftp rb@backup.local
+  exit_code: 147
+  shell: zsh
+  session_id: d1158fac-f3c7-42e8-be2b-ec638604f2d1
+  cwd: /home/rb
+  time: 1683072302
+- command: ls .ssh
+  exit_code: 0
+  shell: zsh
+  session_id: d1158fac-f3c7-42e8-be2b-ec638604f2d1
+  cwd: /home/rb
+  time: 1683072440
+- command: ssh root@backup.local
+  exit_code: 1
+  shell: zsh
+  session_id: d1158fac-f3c7-42e8-be2b-ec638604f2d1
+  cwd: /home/rb
+  time: 1683072807
+- command: yay wl-keyboard
+  exit_code: 0
+  shell: zsh
+  session_id: d1158fac-f3c7-42e8-be2b-ec638604f2d1
+  cwd: /home/rb
+  time: 1683073024
+- command: ssh root@ha.local
+  exit_code: 130
+  shell: zsh
+  session_id: d1158fac-f3c7-42e8-be2b-ec638604f2d1
+  cwd: /home/rb
+  time: 1683073705
+- command: ssh root@bak.local
+  exit_code: 255
+  shell: zsh
+  session_id: 7ff2d5aa-4b31-40f4-94c7-2c0e4a5731f5
+  cwd: /home/rb
+  time: 1683073738
+- command: ssh root@pve.local
+  exit_code: 1
+  shell: zsh
+  session_id: d1158fac-f3c7-42e8-be2b-ec638604f2d1
+  cwd: /home/rb
+  time: 1683074105
+- command: exit
+  exit_code: 0
+  shell: zsh
+  session_id: d1158fac-f3c7-42e8-be2b-ec638604f2d1
+  cwd: /home/rb
+  time: 1683074379
+- command: ssh root@pve.local
+  exit_code: 0
+  shell: zsh
+  session_id: 56d6517a-d843-4f8d-a19e-8de9a03cbdd6
+  cwd: /home/rb
+  time: 1683074470
+- command: yay clipboardindicator
+  exit_code: 0
+  shell: zsh
+  session_id: 07d28e96-e395-4f7a-a95d-7c5c274c3809
+  cwd: /home/rb
+  time: 1683074580
+- command: ls ~/.config/tmux/
+  exit_code: 0
+  shell: zsh
+  session_id: 07d28e96-e395-4f7a-a95d-7c5c274c3809
+  cwd: /home/rb
+  time: 1683074934
+- command: ~
+  exit_code: 0
+  shell: zsh
+  session_id: 07d28e96-e395-4f7a-a95d-7c5c274c3809
+  cwd: /home/rb
+  time: 1683074962
+- command: ~
+  exit_code: 0
+  shell: zsh
+  session_id: 07d28e96-e395-4f7a-a95d-7c5c274c3809
+  cwd: /home/rb
+  time: 1683074963
+- command: ssh root@bak.local
+  exit_code: 0
+  shell: zsh
+  session_id: 56d6517a-d843-4f8d-a19e-8de9a03cbdd6
+  cwd: /home/rb
+  time: 1683074499
+- command: git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm
+  exit_code: 0
+  shell: zsh
+  session_id: e39a21d7-8b3a-4055-aa4f-0de75aa35c6b
+  cwd: /home/rb
+  time: 1683075553
+- command: ssh root@bak.local
+  exit_code: 255
+  shell: zsh
+  session_id: 42e65656-1e42-42b5-b0bf-e56a9d064625
+  cwd: /home/rb
+  time: 1683078075
+- command: ssh root@ha.local
+  exit_code: 255
+  shell: zsh
+  session_id: eb18bb28-46cd-4b7b-a596-c6f474946320
+  cwd: /home/rb
+  time: 1683078365
+- command: nano /home/rb/.ssh/known_hosts
+  exit_code: 0
+  shell: zsh
+  session_id: eb18bb28-46cd-4b7b-a596-c6f474946320
+  cwd: /home/rb
+  time: 1683078385
+- command: ssh root@ha.local
+  exit_code: 255
+  shell: zsh
+  session_id: eb18bb28-46cd-4b7b-a596-c6f474946320
+  cwd: /home/rb
+  time: 1683078399
+- command: ssh root@ha.local
+  exit_code: 0
+  shell: zsh
+  session_id: eb18bb28-46cd-4b7b-a596-c6f474946320
+  cwd: /home/rb
+  time: 1683078401
+- command: ssh root@bak.local
+  exit_code: 0
+  shell: zsh
+  session_id: 42e65656-1e42-42b5-b0bf-e56a9d064625
+  cwd: /home/rb
+  time: 1683078332
+- command: ssh root@bak.local
+  exit_code: 0
+  shell: zsh
+  session_id: 42e65656-1e42-42b5-b0bf-e56a9d064625
+  cwd: /home/rb
+  time: 1683084256
+- command: ~
+  exit_code: 0
+  shell: zsh
+  session_id: eb18bb28-46cd-4b7b-a596-c6f474946320
+  cwd: /home/rb
+  time: 1683084341
+- command: ssh root@ha.local
+  exit_code: 0
+  shell: zsh
+  session_id: eb18bb28-46cd-4b7b-a596-c6f474946320
+  cwd: /home/rb
+  time: 1683084344
+- command: ssh bak.local
+  exit_code: 2
+  shell: zsh
+  session_id: 42e65656-1e42-42b5-b0bf-e56a9d064625
+  cwd: /home/rb
+  time: 1683084309
+- command: ssh root@ha.local
+  exit_code: 255
+  shell: zsh
+  session_id: 42e65656-1e42-42b5-b0bf-e56a9d064625
+  cwd: /home/rb
+  time: 1683084767
+- command: nano /home/rb/.ssh/known_hosts
+  exit_code: 0
+  shell: zsh
+  session_id: 42e65656-1e42-42b5-b0bf-e56a9d064625
+  cwd: /home/rb
+  time: 1683084918
+- command: yay activitywatch
+  exit_code: 130
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb
+  time: 1683117641
+- command: yay activitywatch
+  exit_code: 0
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb
+  time: 1683117692
+- command: ls -l /opt
+  exit_code: 0
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb
+  time: 1683118468
+- command: rm -rf /opt/duplicati
+  exit_code: 1
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb
+  time: 1683118488
+- command: pacman -R duplicati
+  exit_code: 1
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb
+  time: 1683118496
+- command: sudo pacman -R duplicati
+  exit_code: 1
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb
+  time: 1683118499
+- command: duplicati
+  exit_code: 127
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb
+  time: 1683118508
+- command: pm
+  exit_code: 127
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb
+  time: 1683118546
+- command: ins
+  exit_code: 127
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb
+  time: 1683118562
+- command: ps -e
+  exit_code: 0
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb
+  time: 1683119695
+- command: ps -e | grep firefox
+  exit_code: 0
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb
+  time: 1683119709
+- command: pacman -Syu
+  exit_code: 1
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb
+  time: 1683126699
+- command: ssh root@ha.local
+  exit_code: 0
+  shell: zsh
+  session_id: 42e65656-1e42-42b5-b0bf-e56a9d064625
+  cwd: /home/rb
+  time: 1683084926
+- command: sudo pacman -Syu
+  exit_code: 0
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb
+  time: 1683126701
+- command: yay discord-electron
+  exit_code: 130
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb
+  time: 1683128154
+- command: pacman -Q
+  exit_code: 0
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb
+  time: 1683128186
+- command: pacman -Q discord
+  exit_code: 0
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb
+  time: 1683128193
+- command: sudo pacman -R discord_arch_electron
+  exit_code: 0
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb
+  time: 1683128212
+- command: yay dorion-bin
+  exit_code: 0
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb
+  time: 1683128236
+- command: dorion
+  exit_code: 0
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb
+  time: 1683128443
+- command: ls .config
+  exit_code: 0
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb
+  time: 1683128784
+- command: dorion
+  exit_code: 0
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb
+  time: 1683128795
+- command: la
+  exit_code: 0
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb/dorion
+  time: 1683128805
+- command: cd ..
+  exit_code: 0
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb/dorion
+  time: 1683128814
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb
+  time: 1683128815
+- command: rm dorion
+  exit_code: 1
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb
+  time: 1683128819
+- command: pacman -R dorion
+  exit_code: 1
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb
+  time: 1683128824
+- command: sudo pacman -R dorion
+  exit_code: 130
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb
+  time: 1683128827
+- command: sudo pacman -R dorion
+  exit_code: 1
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb
+  time: 1683128897
+- command: pacman -Q | grep dorion
+  exit_code: 0
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb
+  time: 1683129086
+- command: sudo pacman -R dorion-bin
+  exit_code: 0
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb
+  time: 1683129093
+- command: ssh root@192.168.1.102
+  exit_code: 0
+  shell: zsh
+  session_id: 42e65656-1e42-42b5-b0bf-e56a9d064625
+  cwd: /home/rb
+  time: 1683127940
+- command: yay ripcord
+  exit_code: 0
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb
+  time: 1683129154
+- command: ssh root@bak.local
+  exit_code: 0
+  shell: zsh
+  session_id: 42e65656-1e42-42b5-b0bf-e56a9d064625
+  cwd: /home/rb
+  time: 1683129254
+- command: Repositories
+  exit_code: 0
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb
+  time: 1683129642
+- command: sl
+  exit_code: 127
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb/Repositories
+  time: 1683129643
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb/Repositories
+  time: 1683129645
+- command: git clone https://github.com/techno-tim/k3s-ansible
+  exit_code: 0
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb/Repositories
+  time: 1683129656
+- command: yay nb
+  exit_code: 130
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb/Repositories
+  time: 1683129787
+- command: ansible-galaxy install -r ./collections/requirements.yml
+  exit_code: 1
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb/Repositories
+  time: 1683129826
+- command: cd k3s-ansible
+  exit_code: 0
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb/Repositories
+  time: 1683129844
+- command: ansible-galaxy install -r ./collections/requirements.yml
+  exit_code: 1
+  shell: zsh
+  session_id: a64a377e-2448-4e95-b2e0-0739ec3f3741
+  cwd: /home/rb/Repositories/k3s-ansible
+  time: 1683129845
+- command: nvim .config/tmux/tmux.conf
+  exit_code: 0
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb
+  time: 1683123507
+- command: cd Repositories/k3s-ansible
+  exit_code: 0
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb
+  time: 1683130031
+- command: cp ansible.example.cfg ansible.cfg
+  exit_code: 0
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb/Repositories/k3s-ansible
+  time: 1683130038
+- command: ansible-galaxy install -r ./collections/requirements.yml
+  exit_code: 1
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb/Repositories/k3s-ansible
+  time: 1683130047
+- command: pip uninstall ansible
+  exit_code: 127
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb/Repositories/k3s-ansible
+  time: 1683130479
+- command: sudo pacman -R ansible
+  exit_code: 0
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb/Repositories/k3s-ansible
+  time: 1683130489
+- command: brew
+  exit_code: 127
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb/Repositories/k3s-ansible
+  time: 1683130507
+- command: /bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"
+  exit_code: 0
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb/Repositories/k3s-ansible
+  time: 1683130539
+- command: (echo; echo 'eval \"$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)\"') >> /home/rb/.zprofile
+  exit_code: 0
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb/Repositories/k3s-ansible
+  time: 1683130576
+- command: eval \"$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)\"
+  exit_code: 0
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb/Repositories/k3s-ansible
+  time: 1683130581
+- command: brew install gcc
+  exit_code: 0
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb/Repositories/k3s-ansible
+  time: 1683130588
+- command: brew ansible
+  exit_code: 1
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb/Repositories/k3s-ansible
+  time: 1683137280
+- command: brew install ansible
+  exit_code: 0
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb/Repositories/k3s-ansible
+  time: 1683137289
+- command: config commit \"first commit\"
+  exit_code: 1
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb/Repositories/k3s-ansible
+  time: 1683327129
+- command: config commit *
+  exit_code: 1
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb/Repositories/k3s-ansible
+  time: 1683327141
+- command: cd ..
+  exit_code: 0
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb/Repositories/k3s-ansible
+  time: 1683327153
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb/Repositories
+  time: 1683327155
+- command: config status
+  exit_code: 0
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb/Repositories
+  time: 1683327230
+- command: config push
+  exit_code: 128
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb/Repositories
+  time: 1683327252
+- command: echo \".dotfiles\" >> .gitignore
+  exit_code: 0
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb/Repositories
+  time: 1683328988
+- command: cd ..
+  exit_code: 0
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb/Repositories
+  time: 1683329085
+- command: cd .dotfiles
+  exit_code: 0
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb
+  time: 1683329089
+- command: git remote add origin git@github.com:rbangert/dotfiles.git
+  exit_code: 0
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb/.dotfiles
+  time: 1683329095
+- command: git branch -M main
+  exit_code: 0
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb/.dotfiles
+  time: 1683329099
+- command: cd ..
+  exit_code: 0
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb/.dotfiles
+  time: 1683329118
+- command: config push -u origin main
+  exit_code: 1
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb
+  time: 1683329124
+- command: git status
+  exit_code: 128
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb
+  time: 1683329154
+- command: config status
+  exit_code: 0
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb
+  time: 1683329157
+- command: rm -r .dotfiles
+  exit_code: 130
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb
+  time: 1683329172
+- command: rm -rf .dotfiles
+  exit_code: 0
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb
+  time: 1683329178
+- command: git init --bare $HOME/.dotfiles
+  exit_code: 0
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb
+  time: 1683329235
+- command: config config --local status.showUntrackedFiles no
+  exit_code: 0
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb
+  time: 1683329259
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb
+  time: 1683329290
+- command: la
+  exit_code: 0
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb
+  time: 1683329293
+- command: cd .config
+  exit_code: 0
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb
+  time: 1683329531
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb/.config
+  time: 1683329532
+- command: config add alacritty
+  exit_code: 0
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb/.config
+  time: 1683329645
+- command: config status
+  exit_code: 0
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb/.config
+  time: 1683329662
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: d3b6447d-7cd9-4d0e-a8fb-a3659a35e365
+  cwd: /home/rb/.config
+  time: 1683329673
+- command: cd .config
+  exit_code: 0
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb
+  time: 1683329822
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb/.config
+  time: 1683329825
+- command: cadd eww
+  exit_code: 0
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb/.config
+  time: 1683329839
+- command: cadd fish
+  exit_code: 0
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb/.config
+  time: 1683329846
+- command: cadd dunst
+  exit_code: 0
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb/.config
+  time: 1683329851
+- command: ls fontforge
+  exit_code: 0
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb/.config
+  time: 1683329873
+- command: ls fontforge/
+  exit_code: 0
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb/.config
+  time: 1683329878
+- command: cadd hypr
+  exit_code: 0
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb/.config
+  time: 1683329897
+- command: cadd picom
+  exit_code: 0
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb/.config
+  time: 1683329905
+- command: cadd polybar
+  exit_code: 0
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb/.config
+  time: 1683329918
+- command: cadd rofi
+  exit_code: 0
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb/.config
+  time: 1683329925
+- command: cadd scripts
+  exit_code: 0
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb/.config
+  time: 1683329928
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb/.config
+  time: 1683329929
+- command: cadd starship.toml
+  exit_code: 0
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb/.config
+  time: 1683329938
+- command: cadd swaylock
+  exit_code: 0
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb/.config
+  time: 1683329943
+- command: cadd swhkd
+  exit_code: 0
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb/.config
+  time: 1683329947
+- command: ls systemd
+  exit_code: 0
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb/.config
+  time: 1683329951
+- command: ls systemd/user
+  exit_code: 0
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb/.config
+  time: 1683329955
+- command: cadd tmux
+  exit_code: 0
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb/.config
+  time: 1683329982
+- command: config status
+  exit_code: 0
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb/.config
+  time: 1683329994
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb/.config
+  time: 1683330010
+- command: cadd wallpapers
+  exit_code: 0
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb/.config
+  time: 1683330018
+- command: cadd wofi
+  exit_code: 0
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb/.config
+  time: 1683330022
+- command: cadd zsh
+  exit_code: 0
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb/.config
+  time: 1683330028
+- command: config commit -m \"first push\"
+  exit_code: 0
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb/.config
+  time: 1683330069
+- command: config branch -M main
+  exit_code: 0
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb/.config
+  time: 1683330108
+- command: config remote add origin git@github.com:rbangert/dotfiles.git
+  exit_code: 0
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb/.config
+  time: 1683330176
+- command: config push -u origin main
+  exit_code: 0
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb/.config
+  time: 1683330190
+- command: cd ..
+  exit_code: 0
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb/.config
+  time: 1683330229
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb
+  time: 1683330230
+- command: la
+  exit_code: 0
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb
+  time: 1683330234
+- command: cadd .zshrc
+  exit_code: 0
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb
+  time: 1683330242
+- command: cadd .zprofile
+  exit_code: 0
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb
+  time: 1683330249
+- command: cadd .xsession
+  exit_code: 0
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb
+  time: 1683330312
+- command: cadd .vscode
+  exit_code: 130
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb
+  time: 1683330320
+- command: cadd .profile
+  exit_code: 0
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb
+  time: 1683330362
+- command: cadd .themes
+  exit_code: 0
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb
+  time: 1683330367
+- command: ls
+  exit_code: 0
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb
+  time: 1683332217
+- command: la
+  exit_code: 0
+  shell: zsh
+  session_id: ef43e99e-133e-436d-a3bc-846a35396e1a
+  cwd: /home/rb
+  time: 1683332219
